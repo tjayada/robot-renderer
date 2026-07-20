@@ -1,0 +1,1820 @@
+{
+ "owi535": {
+  "base_url": "https://www.paris.inria.fr/archive_ylabbeprojectsdata/robopose/deps/owi-description/owi535_description",
+  "urdf": {
+   "name": "owi535.urdf",
+   "sha256": "7d5cc06db8080db084a09571186fd9bf93797a61ef758739ed1b279eb7de92ee"
+  },
+  "files": {
+   "Untitled-mesh.0.obj": {
+    "sha256": "79874c65a06b657906b4449ace1e33e3ece37eb37ac6d1eb1c246fa7cd70d430",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_001-mesh.0.obj": {
+    "sha256": "781630666836dc4e9ebd92441b91a5e0fe18234593f427baa777ee24d4b6c7c8",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": 56728
+   },
+   "Untitled_001-mesh.1.obj": {
+    "sha256": "9a2f8d1b907ee7f3da42d2d4306f4d90ac07b512063593e48abe06f9fbf7a144",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_001-mesh.2.obj": {
+    "sha256": "10d5d05ac4b99c0f12aaddb02fdbf18f377ce7d861342eebb2b07a3b6ae88c48",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": 9617
+   },
+   "Untitled_001-mesh.3.obj": {
+    "sha256": "574bd3ce1de0a7b9161a032a9c61bb67af3f3fc545c86959c8be6ba9a9a1215f",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_002-mesh.0.obj": {
+    "sha256": "b818ab19a4b1a8ae469f56c02becc8b3365efd3f37e42ddf784bceafb6cde343",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_003-mesh.0.obj": {
+    "sha256": "8304dd62bc6be8289eaf940216227c9b8082352f6f8a03b72acf2dc99e49ce40",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_004-mesh.0.obj": {
+    "sha256": "2ae88719a55c67d2a017377c2f8e44bc7e5b83ead43a0330c5cda12ce2a2efed",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_005-mesh.0.obj": {
+    "sha256": "e74902c559c00d618f72ed9e68aaefd1d4c21a2e2a4742f0cdb22155d3cff7e2",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_006-mesh.0.obj": {
+    "sha256": "ebde0c1edac932d4561197df67af231c5a94ec0c99c231952141b2821bebab09",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_007-mesh.0.obj": {
+    "sha256": "4538e02c0f40b5b95d52664d2b1c1d8babd430869ac61c3a7d76063ef8216987",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_008-mesh.0.obj": {
+    "sha256": "9bbc7d100af14f9b525344e8759a6feb9ba30f1981f7acf1d022460217c15509",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_009-mesh.0.obj": {
+    "sha256": "7151651c2de856afe70f124399e2e649ed62828b1044092dc63c467c25aa052c",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_010-mesh.0.obj": {
+    "sha256": "8c6df086c61088938b8d143cd72235e96fd6e53d7033b8c9fe2daa1a3ca4080b",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_011-mesh.0.obj": {
+    "sha256": "a202cfcddfa010035e309f83fdf524570c680d29bf11f4c10fab610ae3f49864",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_012-mesh.0.obj": {
+    "sha256": "cea634d297a0de1ab574e01e923d877a3c88c6bc723c536ba6a4ec49d2fd9a9c",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_013-mesh.0.obj": {
+    "sha256": "37a853e680ce7802bccc94c2aba4392e3043065eed5d04b844717876f97e4bcb",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_014-mesh.0.obj": {
+    "sha256": "67fab5a2a33341423f033035e218349e1e4e44420964b3d0aa680fa5d7ca6493",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_015-mesh.0.obj": {
+    "sha256": "cf8f4546d270f153047b9c23e769b8233093a0b7b59e049e23be151d5966923e",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_016-mesh.0.obj": {
+    "sha256": "1862d5df7f05017bce45471cfcf8a39a173d19bfce7d0617afa3a2b3f6f386dd",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_017-mesh.0.obj": {
+    "sha256": "16de63027eec8599546bf103d71eb58550401fe9aabb741130023ccfbc9274ff",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_018-mesh.0.obj": {
+    "sha256": "4723d61048c092610b64c3da490d8ffc431d751a6a8a145c4376bd14dc9ea5c0",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_019-mesh.0.obj": {
+    "sha256": "599d825c05bc7c61102f242ada0e11ddb8cb427e7ddbcbe314e7222faf47a6a2",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_019-mesh.1.obj": {
+    "sha256": "466dc323d2bdc0e63fab2cda909c00625d57bd9bfaa957513428c5c713808d53",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_019-mesh.2.obj": {
+    "sha256": "7019242906dd409b8a0e73eda10d563bd84ed52564004acafa033cc99e0dd012",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_020-mesh.0.obj": {
+    "sha256": "997174902c65097585e39a9535e01c2bb9885c97b25bcabca56ad847d630af5f",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_021-mesh.0.obj": {
+    "sha256": "24769840079cbc81df4e793f59c2b793850aa668dbb1a9891fb354c9a2039dc3",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_022-mesh.0.obj": {
+    "sha256": "8293fb4bc296b222ae1da4da166141c4a0aae554f4bd9b5ad678f6a36dce059a",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_022-mesh.1.obj": {
+    "sha256": "73eeed1e6394b55dd3c86d68bba91916c28974b4a2750aebfbd0d74f732de856",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_022-mesh.2.obj": {
+    "sha256": "17d1813cb0b2f9045e570c5e670231cce9e75142d335d1eabe3489057a6d6ac9",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_023-mesh.0.obj": {
+    "sha256": "f4540d423b0e225121f970e2c9269ffc82e1fcae90a1eceb140889fb1dc838df",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_024-mesh.0.obj": {
+    "sha256": "ae096a302b2d0c80393345d1a0146e6a8a0ea742c481b9cf26e8edccf1c1a12a",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_025-mesh.0.obj": {
+    "sha256": "907f97c7384dd08a787129ee9365ea6276853fb682cd60da595198bc3126cbf9",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_026-mesh.0.obj": {
+    "sha256": "34123efb31b032854234f9ae03628210d6334ce8c0aab82f1f36578aa199cbb3",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_026-mesh.1.obj": {
+    "sha256": "2d40c346842ea788bf140c2868d59e6bc1129463a13db11d306348fa18a0ec04",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_027-mesh.0.obj": {
+    "sha256": "ad2baa23fcc1e75044fcdd4cd1b58d10966f5e5a72aa81e8eb6a5b3004cb97d6",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_028-mesh.0.obj": {
+    "sha256": "fd1e99167ed3969db1cab45bfb9025264fd3b9eb222df2112eca4fb43df252a1",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_029-mesh.0.obj": {
+    "sha256": "50da8231f33501657e101f6ef06e5b59653591b2602648476f14b583bc361468",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_030-mesh.0.obj": {
+    "sha256": "516bc51b2d069dd97b709e5eb6335bd171e97bbf235203ce91053f1b68c458b7",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_031-mesh.0.obj": {
+    "sha256": "124534435381a39e59b7802056a4191c643071e51076584ec5293db166b2a95e",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_032-mesh.0.obj": {
+    "sha256": "9b5e4474863b40264e7010a61c3af4b723b7b3c11b58e9cf56900928f273472a",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_033-mesh.0.obj": {
+    "sha256": "15edb88cdbc9585f5f77cf46c9663b0260294f5b9578d3baf273dae3cb19e085",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_034-mesh.0.obj": {
+    "sha256": "c60c2bb3cd162b8990d6b60c77b41a13cfef0d8c16ed42bc0889152243c0d187",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_035-mesh.0.obj": {
+    "sha256": "48347adaff7a78b58a7e830352445ad4ff6516535b8eae08a49a6a8ff193a385",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_036-mesh.0.obj": {
+    "sha256": "ba6f4e0f223fbda6d2086a40ceba6eaf5c10f5ef031418d13de443e3920a00bf",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_037-mesh.0.obj": {
+    "sha256": "e246700b9b94ff582525125dc119bd52d8bba78408f2882e3ba8407af25165c0",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_037-mesh.1.obj": {
+    "sha256": "cf284477755b6788d2c10415c32f9927f3cfe81b953dce69f5a15ccc665c90c4",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_038-mesh.0.obj": {
+    "sha256": "f72fea3bd64eea5576e4f5471c6553b833367b53df58358a9ce8f10c533ac285",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_039-mesh.0.obj": {
+    "sha256": "fc29f8749f18b9b792db0f5bf138eeb7353620ed6d86eaa70c871091f0b7ff1b",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_040-mesh.0.obj": {
+    "sha256": "28beb7757679f184ad9a830cc487c6cefb070a648a2f9cbcf08de041a297421c",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": 5000
+   },
+   "Untitled_041-mesh.0.obj": {
+    "sha256": "5727a8a37db72597ee54d6d1743483f175e79fc9fdbcce6a519c21c0aeb8d6ad",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_042-mesh.0.obj": {
+    "sha256": "b3c8e04bc9bd3094c951aed76542507e5aae47338d2b046ac0e7e76bb3db11f1",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_043-mesh.0.obj": {
+    "sha256": "7d5186ed382e2206b04513e8829e631998612ca89c1d19148a1114190abeb984",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_044-mesh.0.obj": {
+    "sha256": "6592933676f56fce103a42215f0738e9f93b9ebc7057da3a446f0d02b77e827d",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_045-mesh.0.obj": {
+    "sha256": "aa622cb079993bf268bbe3d6622518bac7f51f983fefae7e8cd5958da5731eed",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_046-mesh.0.obj": {
+    "sha256": "5ca1b7b4a2dad1f60e234e91b60f401e1a821861355b1cc1007d018bc1bc7879",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_047-mesh.0.obj": {
+    "sha256": "3b27e5c6bfc82bd24570bd7b595d81b489cb0b54219d07f56e9fcd69475bb6a2",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_048-mesh.0.obj": {
+    "sha256": "8c5cc8e70c2d5b99d8b5d3a5726f4e8a9d08f56265c498f43f6ba7ad2ad73180",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_049-mesh.0.obj": {
+    "sha256": "c03df37d898ddf1abe80269acc6ecb52edcce0a875747c00d3f0a3069f63d7ba",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_050-mesh.0.obj": {
+    "sha256": "94b33bf9d96bb14a4c2a5a75b4dddbb0046f194fcc64d3947b466cd2c4e2cf73",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_051-mesh.0.obj": {
+    "sha256": "8d3b4e293303d56bdc904a1e08fd0de4fde4beb9e9298c3643760a576bd6517a",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_052-mesh.0.obj": {
+    "sha256": "2ae0fd06d96c51f80ea7f873d772a803101d34aa08a8b3df3b64105ec7aec852",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_053-mesh.0.obj": {
+    "sha256": "2a161a4faef0b669c37acb94ab070e5279116d5cf794cd7f5eb65d10aba8b841",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_054-mesh.0.obj": {
+    "sha256": "ef55d2fdbef37ae588fafb173b6e8737f875a7315be06c44649525bbc194d603",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_055-mesh.0.obj": {
+    "sha256": "7df4b7ccc7bf05714e4b8d1bb4a069b88c899b33e9a138639a317c9c59d2811d",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_056-mesh.0.obj": {
+    "sha256": "51f65451a591136b737022ea89c65b744fd0e16e3099ea9da37f39a98bc4122a",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_057-mesh.0.obj": {
+    "sha256": "72f2d1598447f6bc02c2b29dbd26da149fd6283cbfedba54ae34e18f3fa6daeb",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_058-mesh.0.obj": {
+    "sha256": "aa5ffa0bb2d9a628ca27fd9c0aa5663def4a1acc9ff35303f5558b143a7a6772",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_059-mesh.0.obj": {
+    "sha256": "fe25c0160c8b35559df6891785455f0465d86f617df10b0f70bcb6b3d810eca3",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_060-mesh.0.obj": {
+    "sha256": "1b8078a8f448bacdb0b7e461e793d3a2993e63299432e216d22878df2ad10c09",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": 5000
+   },
+   "Untitled_061-mesh.0.obj": {
+    "sha256": "3021f21f2e9fa0cc4503fe8d46d21afc329462ad631853a269035cb4ff60d60b",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_062-mesh.0.obj": {
+    "sha256": "1f6237e195787a031b38e4f98bb852a06f72f741f8ed1d69f8ef6486987785d5",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": null
+   },
+   "Untitled_063-mesh.0.obj": {
+    "sha256": "2f04d8a3fdf35c4f627aa66565f71eae2bcf6a673720d324a68c6a19485a07c9",
+    "colors": {
+     "Ka": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Kd": [
+      0.08,
+      0.08,
+      0.08
+     ],
+     "Ks": [
+      0.03,
+      0.03,
+      0.03
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 10.0
+    },
+    "decimate_target": 5000
+   },
+   "Untitled_064-mesh.0.obj": {
+    "sha256": "a75b19a00f720c7cce988d933d12f8ee146d36db47dfea5726a0f1210f35f2b1",
+    "colors": {
+     "Ka": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "Kd": [
+      0.8,
+      0.8,
+      0.0
+     ],
+     "Ks": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Tr": 1.0,
+     "illum": 2,
+     "Ns": 0.0
+    },
+    "decimate_target": 5000
+   }
+  }
+ },
+ "meca500": {
+  "raw_base": "https://raw.githubusercontent.com/Vanderbilt-Applied-Robotics-Lab/meca500_ros2",
+  "commit": "d26066e88274bf81e87b7bfd6591d8db190abd9a",
+  "urdf": {
+   "source_path": "src/meca500_description/urdf/meca500.xacro",
+   "name": "meca500.urdf",
+   "sha256": "25ea818792d2dbdce805ce93b4e18da2db5b0bc3314db97ebe77d9eb79f5d10f"
+  },
+  "mesh_path": "src/meca500_description/meshes/visual",
+  "files": {
+   "meca_500_r3_base": {
+    "sha256": "35e8843aa1475054ca0ecd9bf0b2d533a28eb417f6115ff8259be465ee5054bd"
+   },
+   "meca_500_r3_j1": {
+    "sha256": "93899f292e329785f74695ca9773a7d8846e442f4265a52282a226ea266a9817"
+   },
+   "meca_500_r3_j2": {
+    "sha256": "475820ce4471b5582984b74ce7748d1d31850ac8a24503309d85b0cba3041630"
+   },
+   "meca_500_r3_j3": {
+    "sha256": "5142710bcc156b7e0bbaca91313df6b3abfeded2e558abbd15eadb18882f0c80"
+   },
+   "meca_500_r3_j4": {
+    "sha256": "71a0c4e8ab8e9cf870953e29feebef9bbf6fb397aea3734174d086461e9cbe5c"
+   },
+   "meca_500_r3_j5": {
+    "sha256": "364c4a43288cc81145f167552ad3c4381b86c06382606901788804308800a262"
+   },
+   "meca_500_r3_j6": {
+    "sha256": "9434208ce37b71c5bcbf3023f0d3e06bab6357f20d1787a33e95af3dfa199750"
+   }
+  }
+ }
+}

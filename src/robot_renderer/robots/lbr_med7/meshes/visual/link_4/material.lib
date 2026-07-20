@@ -1,0 +1,15 @@
+newmtl body
+Ka 0 0 0
+Kd 1.0000 1.0000 1.0000
+Ks 0.0300 0.0300 0.0300
+Ns 25
+d 1
+illum 2
+
+newmtl silver
+Ka 0 0 0
+Kd 0.7500 0.7500 0.7500
+Ks 0.8000 0.8000 0.8000
+Ns 70
+d 1
+illum 2

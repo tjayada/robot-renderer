@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!-- UFACTORY xArm 7, plain URDF (xacro-expanded, ROS package paths removed).
+     Source: xArm-Developer/xarm_ros2 (BSD-3-Clause)
+     Joint origins from xarm7_default_kinematics.yaml.
+     Visual meshes are at xyz=0 0 0 in each link's frame (no offset to bake in). -->
+<robot name="xarm7">
+
+  <link name="world" />
+
+  <joint name="world_joint" type="fixed">
+    <parent link="world" />
+    <child link="link_base" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
+  <link name="link_base">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link_base/link_base.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <parent link="link_base" />
+    <child link="link1" />
+    <origin xyz="0 0 0.267" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.2832" upper="6.2832" effort="50" velocity="3.1416" />
+  </joint>
+
+  <link name="link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link1/link1.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <parent link="link1" />
+    <child link="link2" />
+    <origin xyz="0 0 0" rpy="-1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-2.0944" upper="2.0944" effort="50" velocity="3.1416" />
+  </joint>
+
+  <link name="link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link2/link2.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint3" type="revolute">
+    <parent link="link2" />
+    <child link="link3" />
+    <origin xyz="0 -0.293 0" rpy="1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.2832" upper="6.2832" effort="32" velocity="3.1416" />
+  </joint>
+
+  <link name="link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link3/link3.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint4" type="revolute">
+    <parent link="link3" />
+    <child link="link4" />
+    <origin xyz="0.0525 0 0" rpy="1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-0.1920" upper="3.1416" effort="32" velocity="3.1416" />
+  </joint>
+
+  <link name="link4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link4/link4.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint5" type="revolute">
+    <parent link="link4" />
+    <child link="link5" />
+    <origin xyz="0.0775 -0.3425 0" rpy="1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.2832" upper="6.2832" effort="20" velocity="3.1416" />
+  </joint>
+
+  <link name="link5">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link5/link5.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint6" type="revolute">
+    <parent link="link5" />
+    <child link="link6" />
+    <origin xyz="0 0 0" rpy="1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.6930" upper="3.1416" effort="15" velocity="3.1416" />
+  </joint>
+
+  <link name="link6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link6/link6.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint7" type="revolute">
+    <parent link="link6" />
+    <child link="link7" />
+    <origin xyz="0.076 0.097 0" rpy="-1.5708 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-6.2832" upper="6.2832" effort="10" velocity="3.1416" />
+  </joint>
+
+  <link name="link7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="meshes/visual/link7/link7.obj" /></geometry>
+    </visual>
+  </link>
+
+  <joint name="joint_eef" type="fixed">
+    <parent link="link7" />
+    <child link="link_eef" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
+  <link name="link_eef" />
+
+</robot>

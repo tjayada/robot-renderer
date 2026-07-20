@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-renderer"
+version = "1.0.0"
+description = "PyTorch3D-based multi-view renderer for registered articulated robots."
+readme = "README.md"
+authors = [ { name = "Tjark Darius" } ]
+license = "MIT"
+license-files = ["LICENSE", "MESH_LICENSES/*"]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy<2",
+    "roboticstoolbox-python",
+    "trimesh>=4.0",
+]
+# PyTorch3D must be installed manually (CUDA-version-pinned, no universal wheel).
+# See README for instructions.
+
+[project.optional-dependencies]
+# Extra deps for `make assets` (fetching + rebuilding the non-redistributable
+# meshes). numpy and trimesh are already base dependencies.
+assets = ["meshoptimizer", "pycollada"]
+# Extra deps for `make test` and `make render-check`.
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# Include the redistributable robot URDFs, meshes, and materials in the package.
+# The non-redistributable OWI and Meca assets are not in the repo (see
+# .gitignore); `make assets` fetches them locally.
+[tool.setuptools.package-data]
+robot_renderer = [
+    "robots/**/*.urdf",
+    "robots/**/*.obj",
+    "robots/**/*.mtl",
+    "robots/**/*.lib",
+    "robots/**/*.json",
+]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["tools/_downloads"]
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "B"]
